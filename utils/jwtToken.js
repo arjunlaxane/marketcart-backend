@@ -1,4 +1,4 @@
-//creating token and saving in cookie.
+//creating token and saving in cookie
 require('dotenv').config({ path: 'config.env' });
 
 const sendToken = (user, statusCode, res) => {
